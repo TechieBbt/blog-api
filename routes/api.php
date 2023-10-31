@@ -34,3 +34,6 @@ Route::delete('post/{id}', [PostController::class, 'deletePost']);
 
 Route::post('User', [UserController::class, 'createUser']);
 
+Route::post('login', [UserController::class, 'login']);
+
+
